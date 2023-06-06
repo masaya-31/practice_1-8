@@ -17,3 +17,29 @@
 .list-item:nth-child(odd) {
   background-color: #EDEDED;
 }
+
+.box-contents {
+  width: 960px;
+  margin: 0 auto 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box-item {
+  width: 30%;
+  height: 200px;
+  margin: 0 5% 40px 0;
+  background-color: #FFD700;
+}
+
+.box-item:nth-child(1),
+.box-item:nth-child(5),
+.box-item:nth-child(9) {
+  background-color: #F7861D;
+}
+
+.box-item:nth-child(3),
+.box-item:nth-child(6),
+.box-item:nth-child(9) {
+  margin-right: 0;
+}
